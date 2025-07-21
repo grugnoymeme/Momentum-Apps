@@ -11,8 +11,4 @@ App(
     fap_author="@H4ckd4ddy",
     fap_version="2.0",
     fap_description="App exploiting vulnerability to open any Sentry Safe and Master Lock electronic safes without pin code.",
-<<<<<<< HEAD
-)
-=======
-)
->>>>>>> upstream/dev
+    )
