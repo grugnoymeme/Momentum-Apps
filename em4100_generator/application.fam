@@ -1,6 +1,6 @@
 App(
     appid="em4100_generator",
-    name="EM4100 Key generator",
+    name="EM4100 Key Generator",
     apptype=FlipperAppType.EXTERNAL,
     entry_point="key_generator_main",
     requires=["gui"],
