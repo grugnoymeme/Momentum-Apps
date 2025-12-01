@@ -5,10 +5,10 @@
 
 #include <gui/gui.h>
 #include <gui/view.h>
-#include <assets_icons.h>
+#include "assets/assets_icons.h"
 #include <gui/view_dispatcher.h>
 #include <gui/scene_manager.h>
-#include <cli/cli.h>
+#include <toolbox/cli/cli_command.h>
 #include <notification/notification_messages.h>
 
 #include <gui/modules/submenu.h>
@@ -33,13 +33,13 @@
 
 #include "scenes/t5577_multiwriter_scene.h"
 
-#define LFRFID_KEY_NAME_SIZE   22
+#define LFRFID_KEY_NAME_SIZE 22
 #define LFRFID_TEXT_STORE_SIZE 40
 
-#define LFRFID_APP_FOLDER                    ANY_PATH("lfrfid")
-#define LFRFID_SD_FOLDER                     EXT_PATH("lfrfid")
-#define LFRFID_APP_FILENAME_PREFIX           "RFID"
-#define LFRFID_APP_FILENAME_EXTENSION        ".rfid"
+#define LFRFID_APP_FOLDER ANY_PATH("lfrfid")
+#define LFRFID_SD_FOLDER EXT_PATH("lfrfid")
+#define LFRFID_APP_FILENAME_PREFIX "RFID"
+#define LFRFID_APP_FILENAME_EXTENSION ".rfid"
 #define LFRFID_APP_SHADOW_FILENAME_EXTENSION ".shd"
 
 enum LfRfidCustomEvent {

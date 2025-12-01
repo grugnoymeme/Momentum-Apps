@@ -1,7 +1,25 @@
 # Changelog
 
+## v1.6.0
+
+- Added IR menu
+- Added option in settings to change status display animation
+- Text view has been reworked and scrolling will now pause output, you can resume by pressing right arrow and press the center button to send a stop command to the ESP32
+
+## v1.5.1
+
+- Fixed issue where the command label could be wrong when exiting a command
+
+## v1.5.0
+
+- Support for new pcap marker handling by the firmware as of v1.8
+- Fixed no wardriving files being saved
+- Added new commands
+- Removed unused legacy commands
+
 ## v1.4.1
-- Collapsed things into rotating picker menus in the WiFi section - #9 by @tototo31 
+
+- Collapsed things into rotating picker menus in the WiFi section - #9 by @tototo31
 
 ## v1.4
 
@@ -147,7 +165,7 @@
 - Added proper storage system initialization
 - Removed the line buffering logic for PCAP data
 
-### Improvements  
+### Improvements
 
 - Added error checking for storage operations
 - Filtering majorly improved
