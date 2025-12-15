@@ -3,10 +3,10 @@
 #include <furi_hal.h>
 #include <notification/notification_messages.h>
 
-#include <momentum/momentum.h>
+#include <noname/noname.h>
 
 #define RX_BUF_SIZE 1024
-#define UART_CH     (momentum_settings.uart_nmea_channel)
+#define UART_CH     (noname_settings.uart_nmea_channel)
 
 static const int gps_baudrates[6] = {4800, 9600, 19200, 38400, 57600, 115200};
 static int current_gps_baudrate = 1;

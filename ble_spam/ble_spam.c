@@ -403,7 +403,7 @@ static void draw_callback(Canvas* canvas, void* _ctx) {
             48,
             AlignLeft,
             AlignTop,
-            "App+Spam: \e#WillyJL\e# MNTM\n"
+            "App+Spam: \e#WillyJL\e# NNM\n"
             "Apple+Crash: \e#ECTO-1A\e#\n"
             "Android+Win: \e#Spooks4576\e#\n"
             "                                   Version \e#" FAP_VERSION "\e#",

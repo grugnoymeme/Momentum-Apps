@@ -26,15 +26,15 @@
 */
 #include <xtreme/xtreme.h>
 #define UART_CH (xtreme_settings.uart_esp_channel)
-#elif defined FW_ORIGIN_Momentum
+#elif defined FW_ORIGIN_NoName
 /**
- * Enable the following line for "Momentum Firmware" & "Momentum Apps".
+ * Enable the following line for "NoName Firmware" & "Momentum Apps".
  * 
  * @see https://github.com/Next-Flip/Momentum-Firmware
  * @see https://github.com/Next-Flip/Momentum-Apps
 */
-#include <momentum/momentum.h>
-#define UART_CH (momentum_settings.uart_esp_channel)
+#include <noname/noname.h>
+#define UART_CH (noname_settings.uart_esp_channel)
 #elif defined FW_ORIGIN_RM
 /**
  * Enable the following line for "RogueMaster Firmware".

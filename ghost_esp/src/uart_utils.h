@@ -13,9 +13,9 @@
 #include <stdbool.h>
 #include "firmware_api.h"
 
-#ifdef HAS_MOMENTUM_SUPPORT
-#define UART_CH_ESP (momentum_settings.uart_esp_channel)
-#define UART_CH_GPS (momentum_settings.uart_nmea_channel)
+#ifdef HAS_NONAME_SUPPORT
+#define UART_CH_ESP (noname_settings.uart_esp_channel)
+#define UART_CH_GPS (noname_settings.uart_nmea_channel)
 #else
 #define UART_CH_ESP FuriHalSerialIdUsart
 #define UART_CH_GPS FuriHalSerialIdLpuart

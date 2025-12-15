@@ -48,7 +48,7 @@ void save_file(Context* ctx) {
         "WigleWifi-1.4",
         "appRelease=v2.0",
         "model=S33",
-        "release=MomentumFW",
+        "release=NoNameFW",
         "Flipper Zero",
         "",
         "Wardriver",

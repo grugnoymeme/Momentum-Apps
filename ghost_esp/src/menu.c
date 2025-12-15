@@ -2160,7 +2160,7 @@ static void text_input_result_callback(void* context) {
             input_state->input_buffer,
             INPUT_BUFFER_SIZE,
             true);
-#ifdef HAS_MOMENTUM_SUPPORT
+#ifdef HAS_NONAME_SUPPORT
         text_input_show_illegal_symbols(input_state->text_input, true);
 #endif
         view_dispatcher_switch_to_view(input_state->view_dispatcher, 6);
@@ -2355,7 +2355,7 @@ static void execute_menu_command(AppState* state, const MenuCommand* command) {
             state->input_buffer,
             INPUT_BUFFER_SIZE,
             true);
-#ifdef HAS_MOMENTUM_SUPPORT
+#ifdef HAS_NONAME_SUPPORT
         text_input_show_illegal_symbols(state->text_input, true);
 #endif
         view_dispatcher_switch_to_view(state->view_dispatcher, 6);
@@ -2377,7 +2377,7 @@ static void execute_menu_command(AppState* state, const MenuCommand* command) {
             state->input_buffer,
             INPUT_BUFFER_SIZE,
             true);
-#ifdef HAS_MOMENTUM_SUPPORT
+#ifdef HAS_NONAME_SUPPORT
         text_input_show_illegal_symbols(state->text_input, true);
 #endif
         view_dispatcher_switch_to_view(state->view_dispatcher, 6);
@@ -2455,7 +2455,7 @@ static void execute_menu_command(AppState* state, const MenuCommand* command) {
                 state->input_buffer,
                 INPUT_BUFFER_SIZE,
                 true);
-#ifdef HAS_MOMENTUM_SUPPORT
+#ifdef HAS_NONAME_SUPPORT
             text_input_show_illegal_symbols(state->text_input, true);
 #endif
             view_dispatcher_switch_to_view(state->view_dispatcher, 6);

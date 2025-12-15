@@ -32,8 +32,8 @@ static void nfc_maker_scene_save_generate_populate_ndef_buffer(NfcMaker* app) {
         furi_string_cat_printf(
             vcard,
             "PRODID:-//"
-#ifdef FW_ORIGIN_Momentum
-            "MomentumFW"
+#ifdef FW_ORIGIN_NoName
+            "NoNameFW"
 #else
             "FlipperZero"
 #endif

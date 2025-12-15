@@ -1,8 +1,8 @@
 #include "wardriver.h"
 
-#define UART_CH_ESP (momentum_settings.uart_esp_channel)
+#define UART_CH_ESP (noname_settings.uart_esp_channel)
 
-#define UART_CH_GPS (momentum_settings.uart_nmea_channel)
+#define UART_CH_GPS (noname_settings.uart_nmea_channel)
 
 #define WORKER_ALL_RX_EVENTS (WorkerEvtStop | WorkerEvtRxDone)
 
