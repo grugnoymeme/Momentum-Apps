@@ -160,7 +160,7 @@ static void clock_render_callback(Canvas* const canvas, void* ctx) {
                 hour -= 12;
             }
             if(hour == 0) {
-                hour = momentum_settings.midnight_format_00 ? 0 : 12;
+                hour = noname_settings.midnight_format_00 ? 0 : 12;
             }
         }
 
