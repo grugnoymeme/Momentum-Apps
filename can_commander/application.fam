@@ -6,7 +6,7 @@ App(
     requires=["gui"],
     stack_size=20 * 1024,
     fap_icon="icon.png",
-    fap_category="GPIO",
+    fap_category="Cars",
     sources=[
         "can_commander.c",
         "libraries/can_commander_uart.c",
